@@ -4,16 +4,16 @@
   "modules": [
     {
       "kind": "javascript-module",
-      "path": "src/custom-element.ts",
+      "path": "src/star-rating-element.ts",
       "declarations": [
         {
           "kind": "class",
-          "description": "An example Custom Element. This documentation ends up in the\nREADME so describe how this elements works here.\n\nYou can event add examples on the element is used with Markdown.\n\n```\n<custom-element></custom-element>\n```",
-          "name": "CustomElementElement",
+          "description": "An example Custom Element. This documentation ends up in the\nREADME so describe how this elements works here.\n\nYou can event add examples on the element is used with Markdown.\n\n```\n<star-rating></star-rating>\n```",
+          "name": "StarRatingElement",
           "superclass": {
             "name": "HTMLElement"
           },
-          "tagName": "custom-element",
+          "tagName": "star-rating",
           "customElement": true
         }
       ],
@@ -22,16 +22,16 @@
           "kind": "js",
           "name": "default",
           "declaration": {
-            "name": "CustomElementElement",
-            "module": "src/custom-element.ts"
+            "name": "StarRatingElement",
+            "module": "src/star-rating-element.ts"
           }
         },
         {
           "kind": "custom-element-definition",
-          "name": "custom-element",
+          "name": "star-rating",
           "declaration": {
-            "name": "CustomElementElement",
-            "module": "src/custom-element.ts"
+            "name": "StarRatingElement",
+            "module": "src/star-rating-element.ts"
           }
         }
       ]
